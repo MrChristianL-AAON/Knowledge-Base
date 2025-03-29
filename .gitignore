@@ -4,10 +4,13 @@
 # Allow Markdown files
 !*.md
 
+# Allow folders that contain Markdown files
+!*/ 
+
 # Allow Git configuration files
 !.gitignore
 
-# Allow Obsidian Git plugin settings (optional, if you want them)
+# Allow Obsidian Git plugin settings (optional)
 !.obsidian/plugins/obsidian-git
 
 # Ignore all other Obsidian settings, cache, and logs

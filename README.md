@@ -8,7 +8,7 @@ This vault contains key areas of work and learning:
 
 - **Concepts**: Technical information and summaries of concepts, large and small.
     
-- **Projects**: Documentation for personal and professional projects.
+- **Projects**: Documentation for projects.
     
 - **Timelines**: Progress tracking and milestone documentation.
     
@@ -28,7 +28,7 @@ This vault is synced with GitHub using the **Obsidian Git** plugin. Follow these
 2. Enable **auto commit and sync** for regular backups.
     
 
-For detailed setup instructions, visit the [Obsidian Git setup guide](https://github.com/obsidian-git/obsidian-git).
+For detailed setup instructions, visit the [Obsidian Git setup guide](https://publish.obsidian.md/git-doc/Start+here).
 
 ---
 
@@ -44,9 +44,3 @@ For detailed setup instructions, visit the [Obsidian Git setup guide](https://gi
     
 
 All content is in **Markdown (.md)** format for easy readability and editing.
-
----
-
-## **🔹 Contribution**
-
-Feel free to fork the repository or submit pull requests to suggest improvements or collaborate on ideas.
