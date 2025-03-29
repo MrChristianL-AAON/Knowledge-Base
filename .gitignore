@@ -1,9 +1,21 @@
-# OR only to exclude workspace cache
+# Ignore everything by default
+*
+
+# Allow Markdown files
+!*.md
+
+# Allow Git configuration files
+!.gitignore
+
+# Allow Obsidian Git plugin settings (optional, if you want them)
+!.obsidian/plugins/obsidian-git
+
+# Ignore all other Obsidian settings, cache, and logs
 .obsidian/workspace.json
-
-# to exclude workspace cache specific to mobile devices
-.obsidian/workspace-mobile.json
-
-# Add below lines to exclude OS settings and caches
-.trash/
-.DS_Store
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/hotkeys.json
+.obsidian/cache
+.obsidian/community-plugins.json
+.obsidian/plugins/*
+!.obsidian/plugins/obsidian-git/*
