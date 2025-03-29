@@ -1,0 +1,1 @@
+Azure IoT is utilized by AAON as a communications broker with our current IoT devices.
