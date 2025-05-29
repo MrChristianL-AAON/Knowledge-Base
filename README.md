@@ -25,4 +25,13 @@ This vault is synced with GitHub using the **Obsidian Git** plugin. Follow these
 
 For more detailed Obsidian Git setup instructions, visit the [Obsidian Git setup guide](https://publish.obsidian.md/git-doc/Start+here).
 
-This is a test
+---
+
+# Getting Started with Python
+
+### Python Virtual Environment (venv)
+1. 
+
+### Launching Jupyter Notebook
+`python -m notebook`
+Note: it may be helpful to alias this command to something like `notebook`
