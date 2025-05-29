@@ -39,7 +39,7 @@ For more detailed Obsidian Git setup instructions, visit the [Obsidian Git setup
 	   If done correctly, you should now see the name of your virtual environment in your terminal (e.g. `(.venv) user@yourmachine ~/project_folder`) 
    
 4. Install the necessary python packages (`pip install -r requirements.txt`)
-	Note that the requirements.txt file can be found at C:/Users/christian.leonard/requirements.txt
+	Note that the requirements.txt file can be found at `C:/Users/christian.leonard/requirements.txt`
    
 5. Verify installation (`pip list`) 
 	   This will show all the python packages and dependencies that are now installed within your virtual environment.
