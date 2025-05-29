@@ -31,13 +31,18 @@ For more detailed Obsidian Git setup instructions, visit the [Obsidian Git setup
 
 ### Python Virtual Environment (venv)
 1. Create your project folder (`mkdir project_folder`)
+   
 2. Create the virtual environment (`python -m venv .venv`). 
 	   In this instance, our virtual environment is named .venv, but you can name it anything.
+   
 3.  Activate the virtual environment (`source .venv/Scripts/activate`)
 	   If done correctly, you should now see the name of your virtual environment in your terminal (e.g. `(.venv) user@yourmachine ~/project_folder`) 
+   
 4. Install the necessary python packages (`pip install -r C:\Users\christian.leonard\requirements.txt`)
+   
 5. Verify installation (`pip list`) 
 	   This will show all the python packages and dependencies that are now installed within your virtual environment.
+   
 6. When ready, deactivate your virtual environment by performing the `deactivate` command in your terminal.
 
 ### Jupyter Notebook
