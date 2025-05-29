@@ -27,7 +27,7 @@ For more detailed Obsidian Git setup instructions, visit the [Obsidian Git setup
 
 ---
 
-# Setting Up Your Environment with Python
+## **🔹 Setting Up Your Environment with Python**
 
 ### Python Virtual Environment (venv)
 1. Create your project folder (`mkdir project_folder`)
@@ -38,8 +38,7 @@ For more detailed Obsidian Git setup instructions, visit the [Obsidian Git setup
 3.  Activate the virtual environment (`source .venv/Scripts/activate`)
 	   If done correctly, you should now see the name of your virtual environment in your terminal (e.g. `(.venv) user@yourmachine ~/project_folder`) 
    
-4. Install the necessary python packages (`pip install -r requirements.txt`)
-	Note that the requirements.txt file can be found at `C:/Users/christian.leonard/requirements.txt`
+4. Install the necessary python packages (`pip install -r C:/Users/christian.leonard/requirements.txt`)
    
 5. Verify installation (`pip list`) 
 	   This will show all the python packages and dependencies that are now installed within your virtual environment.
@@ -48,4 +47,4 @@ For more detailed Obsidian Git setup instructions, visit the [Obsidian Git setup
 
 ### Jupyter Notebook
 To launch Jupyter Notebook: `python -m notebook`
-Note: it may be helpful to alias this command to something like `notebook`
+Note: it may be helpful to alias this command to something like **notebook** (`alias notebook='python -m notebook'`)
