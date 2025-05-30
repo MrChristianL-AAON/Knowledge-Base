@@ -65,8 +65,7 @@ import matplotlib.pyplot as plt
 ### Node.js, npm, and TypeScript
 
 ##### Node.js and npm
-To install Node.js, visit the website found below.
-[Node.js](https://nodejs.org/)
+To install Node.js, visit the official [Node.js](https://nodejs.org/) website.
 Here, you will find a Node.js installer. This will install both Node.js and npm.
 
 To test that each has been installed, utilize the following commands:
@@ -80,6 +79,7 @@ To install TypeScript, utilize the following command:
 npm install -g typescript
 ```
 This will install TypeScript globally. To test that TS has been correctly installed, run the following command: `tsc --version`
+
 
 ### React, Preact, and Vite
 ##### Vite
