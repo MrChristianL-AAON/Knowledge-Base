@@ -66,17 +66,60 @@ import matplotlib.pyplot as plt
 
 ##### Node.js and npm
 To install Node.js, visit the website found below.
-[Node.js] [https://nodejs.org/]
-
+[Node.js](https://nodejs.org/)
 Here, you will find a Node.js installer. This will install both Node.js and npm.
 
-To test that th
+To test that each has been installed, utilize the following commands:
+```bash
+node --version
+npm --version
+```
 ##### TypeScript
-
+To install TypeScript, utilize the following command:
+```bash
+npm install -g typescript
+```
+This will install TypeScript globally. To test that TS has been correctly installed, run the following command: `tsc --version`
 
 ### React, Preact, and Vite
+##### Vite
+To install Vite, we will use the following command:
+```bash
+npm install -g vite
+```
+To test, run the following: `vite --version` or `npm run dev`
+
+From here, we can now utilize React and Preact using Vite and the npm package manager.
+
+##### React
+The npm package manager should now handle React commands, such as creating a React application. This can be done with the following command:
+```bash
+npm create vite@latest my-react-app -- --template react
+```
+
+To test: `npm run dev`
+
+This will build your React application, allowing for the application to be viewed locally in your web browser.
+
+##### Preact
+Similarly to React, Preact applications can be created via the following command:
+```bash
+npm create vite@latest my-preact-app -- --template preact
+```
+
+To test: `npm run dev`
+
+This will build your Preact application, allowing for it to be viewed locally in your web browser.
 
 ### Rust and Tauri
+
+##### Rust
+To install Rust, utilize the rustup installer, found at [rustup.rc](https://rustup.rs/)
+
+Follow the on-screen instructions to install Rust and the Rust package manager, Cargo.
+
+
+##### Tauri
 
 ### Electron
 
