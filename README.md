@@ -118,9 +118,41 @@ To install Rust, utilize the rustup installer, found at [rustup.rc](https://rust
 
 Follow the on-screen instructions to install Rust and the Rust package manager, Cargo.
 
+To test: 
+```bash
+rustc --version
+cargo --version
+```
 
+Additionally, you can now create Rust applications using the following Cargo commands:
+```bash
+cargo new hello-rust
+cd hellow rust
+cargo run
+```
 ##### Tauri
+To install Tauri, you must have the following prerequisites met:
+- [-] Rust installed
+- [-] Node.js installed
 
+Once these prerequisites have been met, Tauri can be installed using Cargo. To install, run the following command:
+```bash
+cargo install create-tauri-app
+```
+To create a Tauri application, run the following:
+```bash
+npm create-tauri-app
+cd my-tauri-app
+npm install
+npm run tauri dev
+```
 ### Electron
+Following a similar installation to React and Preact, Electron applications can be created with the following commands:
+```bash
+npx create-electron-app my-electron-app
+cd my-electron-app
+npm start
+```
 
 ### MQTT Explorer
+To install the MQTT Explorer, download the installer from [the official MQTT website](https://mqtt-explorer.com/) and follow the necessary on-screen instructions.
