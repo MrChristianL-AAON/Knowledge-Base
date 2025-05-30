@@ -4,9 +4,9 @@ This repository hosts the **Data Knowledge Base**, built using **Obsidian**. It 
 
 ## **🔹 Purpose**
 
-This vault contains key areas of work and learning.
+This vault contains key areas of work and learning, as well as a walkthrough of how to get up and running using the various programs, languages, and packages of our current tech stack.
 
-It is intended to keep critical information organized, easily accessible, and up-to-date.
+This knowledge base is intended to keep critical information organized, easily accessible, and up-to-date.
 
 ---
 
@@ -45,11 +45,11 @@ For more detailed Obsidian Git setup instructions, visit the [Obsidian Git setup
    
 6. When ready, deactivate your virtual environment by performing the `deactivate` command in your terminal.
 
-### Jupyter Notebook
+#### Jupyter Notebook
 To launch Jupyter Notebook: `python -m notebook`
 Note: it may be helpful to alias this command to something like **notebook** (`alias notebook='python -m notebook'`)
 
-### Standard Imports
+##### Standard Notebook Imports
 The following imports are standard at the top of all notebooks, for convenience
 ```python 
 import math
@@ -58,3 +58,26 @@ import pandas as pd
 import matplotlib.pyplot as plt
 %matplotlib inline
 ```
+
+---
+## **🔹 Setting Up Your Application Development Environment**
+
+### Node.js, npm, and TypeScript
+
+##### Node.js and npm
+To install Node.js, visit the website found below.
+[Node.js] [https://nodejs.org/]
+
+Here, you will find a Node.js installer. This will install both Node.js and npm.
+
+To test that th
+##### TypeScript
+
+
+### React, Preact, and Vite
+
+### Rust and Tauri
+
+### Electron
+
+### MQTT Explorer
