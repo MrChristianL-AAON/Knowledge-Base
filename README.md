@@ -48,3 +48,13 @@ For more detailed Obsidian Git setup instructions, visit the [Obsidian Git setup
 ### Jupyter Notebook
 To launch Jupyter Notebook: `python -m notebook`
 Note: it may be helpful to alias this command to something like **notebook** (`alias notebook='python -m notebook'`)
+
+### Standard Imports
+The following imports are standard at the top of all notebooks, for convenience
+```python 
+import math
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+%matplotlib inline
+```
