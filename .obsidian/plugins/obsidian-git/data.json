@@ -1,6 +1,6 @@
 {
-  "commitMessage": "vault backup: {{date}}",
-  "autoCommitMessage": "Vault Backup ({{hostname}}): {{date}} | {{files}} [Auto Commit] ",
+  "commitMessage": "Vault Backup ({{hostname}}): {{date}} | {{files}} \n\n[Manual Commit] ",
+  "autoCommitMessage": "Vault Backup ({{hostname}}): {{date}} | {{files}} \n\n[Auto Commit] ",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 10,
   "autoPushInterval": 0,
