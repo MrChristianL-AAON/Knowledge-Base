@@ -1,6 +1,6 @@
 {
-  "commitMessage": "Vault Backup ({{hostname}}): {{date}} [Manual Commit] \n\nAffected Files:\n{{files}}",
-  "autoCommitMessage": "Vault Backup ({{hostname}}): {{date}} [Auto Commit] \n\nAffected Files:\n{{files}}",
+  "commitMessage": "Vault Backup ({{hostname}}): {{date}} [Manual Commit] \n\nAffected Files:",
+  "autoCommitMessage": "Vault Backup ({{hostname}}): {{date}} [Auto Commit] \n\nAffected Files:",
   "commitDateFormat": "MMMM Do YYYY HH:mm",
   "autoSaveInterval": 10,
   "autoPushInterval": 0,
@@ -11,7 +11,7 @@
   "disablePopups": false,
   "showErrorNotices": true,
   "disablePopupsForNoChanges": false,
-  "listChangedFilesInMessageBody": false,
+  "listChangedFilesInMessageBody": true,
   "showStatusBar": true,
   "updateSubmodules": false,
   "syncMethod": "merge",
